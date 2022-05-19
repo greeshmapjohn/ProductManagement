@@ -31,8 +31,8 @@ public class ProductDAO {
 		Product prod3 = new Product(3, "HP", 600);
 
 		prodMap.put(prod1.getId(), prod1);
-		prodMap.put(prod1.getId(), prod2);
-		prodMap.put(prod1.getId(), prod3);
+		prodMap.put(prod2.getId(), prod2);
+		prodMap.put(prod3.getId(), prod3);
 	}
 
 	/**
